@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Basic Webpack project",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
