@@ -177,6 +177,8 @@ Add the necessary configuration to the Webpack configuration file.
 
 NOTE: There is a bug in the current version of Webpack and/or `file-loader` that will cause image URLs to be rendered the wrong way. Instead of a correct URL, you'll get `<img src="[object Module]">` in the generated code. The workaround for now is to add `options: { esModule: false }` to the configuration for `file-loader`.
 
+More info [on StackOverflow](https://stackoverflow.com/questions/59070216/webpack-file-loader-outputs-object-module) and in this [bug report](https://github.com/webpack/webpack/issues/10053).
+
 The complete configuration file should look like this:
 
 ```javascript
