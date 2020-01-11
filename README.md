@@ -1,4 +1,6 @@
-# Setting up a basic Webpack project
+# Setting up a basic webpack project
+
+A simple example that shows you how to setup a HTML / SASS / JavaScript project with [webpack](https://webpack.js.org/).
 
 Useful [video tutorial by DesignCourse](https://www.youtube.com/watch?v=TzdEpgONurw).
 
