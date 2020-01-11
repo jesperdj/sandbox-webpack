@@ -1,7 +1,7 @@
 {
   "name": "sandbox-webpack",
   "version": "1.0.0",
-  "description": "Basic Webpack project example",
+  "description": "Simple webpack project example",
   "scripts": {
     "build": "webpack",
     "start:dev": "webpack-dev-server"
