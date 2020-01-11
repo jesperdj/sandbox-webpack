@@ -43,9 +43,9 @@ Now it's possible to build the project with:
 npm run build
 ```
 
-## Add a Webpack configuration file
+## Add a webpack configuration file
 
-Create a Webpack configuration file:
+Create a webpack configuration file:
 
 ```bash
 touch webpack.config.js
@@ -69,13 +69,13 @@ module.exports = {
 
 ## Support for HTML
 
-Install the HTML Webpack plugin and HTML loader as development dependencies:
+Install the HTML webpack plugin and HTML loader as development dependencies:
 
 ```bash
 npm i -D html-webpack-plugin html-loader
 ```
 
-Add a rule to the module in the Webpack configuration file and also configure the plugin:
+Add a rule to the module in the webpack configuration file and also configure the plugin:
 
 ```javascript
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -119,13 +119,13 @@ mkdir -p src/css
 touch src/css/main.scss
 ```
 
-When you are working with Webpack, you don't directly put a `<link rel=stylesheet ...>` link in the header of your HTML file. Instead, you import it in `index.js`:
+When you are working with webpack, you don't directly put a `<link rel=stylesheet ...>` link in the header of your HTML file. Instead, you import it in `index.js`:
 
 ```javascript
 import './css/main.scss';
 ```
 
-Add a rule and configure the plugin, similar to what was necessary for HTML. The Webpack configuration file now looks like this:
+Add a rule and configure the plugin, similar to what was necessary for HTML. The webpack configuration file now looks like this:
 
 ```javascript
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -175,9 +175,9 @@ For images, install `file-loader`:
 npm i -D file-loader
 ```
 
-Add the necessary configuration to the Webpack configuration file.
+Add the necessary configuration to the webpack configuration file.
 
-NOTE: There is a bug in the current version of Webpack and/or `file-loader` that will cause image URLs to be rendered the wrong way. Instead of a correct URL, you'll get `<img src="[object Module]">` in the generated code. The workaround for now is to add `options: { esModule: false }` to the configuration for `file-loader`.
+NOTE: There is a bug in the current version of webpack and/or `file-loader` that will cause image URLs to be rendered the wrong way. Instead of a correct URL, you'll get `<img src="[object Module]">` in the generated code. The workaround for now is to add `options: { esModule: false }` to the configuration for `file-loader`.
 
 More info [on StackOverflow](https://stackoverflow.com/questions/59070216/webpack-file-loader-outputs-object-module) and in this [bug report](https://github.com/webpack/webpack/issues/10053).
 
@@ -234,7 +234,7 @@ module.exports = {
 
 ## Webpack development server
 
-Install the Webpack development server as a development dependency:
+Install the webpack development server as a development dependency:
 
 ```bash
 npm i -D webpack-dev-server
