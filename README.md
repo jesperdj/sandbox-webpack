@@ -104,6 +104,12 @@ module.exports = {
 }
 ```
 
+Create an `index.html` file in the source folder:
+
+```bash
+touch src/index.html
+```
+
 ## Support for SASS
 
 Install the necessary packages:
