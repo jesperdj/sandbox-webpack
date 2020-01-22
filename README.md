@@ -260,3 +260,16 @@ Now you can start the development server, with live reload, with:
 ```bash
 npm run start:dev
 ```
+
+## Summary
+
+- Create directory and `npm init`
+- Install packages
+
+```bash
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin html-loader node-sass style-loader css-loader sass-loader mini-css-extract-plugin file-loader
+```
+
+- Create webpack config file
+- Edit `package.json` config file
+- Create source folder and files
