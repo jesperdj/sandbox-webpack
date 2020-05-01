@@ -251,14 +251,14 @@ Add a line to `"scripts"` in `package.json`:
 ```json
 "scripts": {
     "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "dev": "webpack-dev-server"
 }
 ```
 
 Now you can start the development server, with live reload, with:
 
 ```bash
-npm run start:dev
+npm run dev
 ```
 
 ## Summary

@@ -4,7 +4,7 @@
   "description": "Simple webpack project example",
   "scripts": {
     "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
